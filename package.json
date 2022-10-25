@@ -1,0 +1,19 @@
+{
+  "name": "playwrightwebautomation",
+  "version": "1.0.0",
+  "description": "Automation testing using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed --config=playwright.config.ts --reporter=html",
+    "test_visual": "playwright test --headed --config=visual.config.ts --reporter=html",
+    "test_firefox": "playwright test --browser=firefox --headed",
+    "test_all": "playwright test --browser=all --headed",
+    "test_api": "playwright test --config=api.config.ts"
+  },
+  "author": "Roni",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.27.1",
+    "prettier": "^2.7.1"
+  }
+}

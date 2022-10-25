@@ -1,0 +1,7 @@
+{
+    "products": [
+        {"name": "Apple monitor 24", "category": "Monitors", "price": "$400"},
+        {"name": "Nexus 6", "category": "Phones", "price": "$650"},
+        {"name": "Dell i7 8gb", "category": "Laptops", "price": "$700"}
+    ]
+}
