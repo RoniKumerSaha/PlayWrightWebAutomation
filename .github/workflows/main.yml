@@ -17,10 +17,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node_version }}
+      run: |
+        npm install
+        npx playwright install
 
     - name: Running API and UI Tests
       run: |
-        npm install
         npm run test_api
-        npx playwright install
+
+    - name: Running API and UI Tests
+      run: |
         npm run test
