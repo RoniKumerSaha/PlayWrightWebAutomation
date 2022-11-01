@@ -18,8 +18,13 @@ jobs:
       with:
         node-version: ${{ matrix.node_version }}
 
-    - name: npm install and test
+    - name: Running API tests
       run: |
         npm install
         npm run test_api
-        npm test
+
+    - name: Running UI tests
+        run: |
+          npm install
+          npx playwright install
+          npm run test
