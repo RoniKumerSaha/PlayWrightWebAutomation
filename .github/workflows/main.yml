@@ -8,7 +8,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node_version: ['14.x']
+        node_version: ['16.x']
         os: [macOS-latest]
 
     steps:
@@ -22,3 +22,4 @@ jobs:
       run: |
         npm install
         npm run test_api
+        npm test
