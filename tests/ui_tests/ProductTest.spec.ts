@@ -1,7 +1,7 @@
 import test, { expect } from "@playwright/test";
-import HomePage from "../pages/HomePage";
-import ProductPage from "../pages/ProductPage";
-import * as data from '../data/products.json'
+import HomePage from "../../pages/HomePage";
+import ProductPage from "../../pages/ProductPage";
+import * as data from '../../data/products.json'
 
 test.describe('Product tests', ()=>{
     let homePage: HomePage

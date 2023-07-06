@@ -6,7 +6,8 @@ To run the tests thare are multiple options/scripts/commands noted in package.js
 ## Steps:
 1. Install Node JS
 2. Install dependencies using `npm install`
-3. To run UI tests: `npm run test`
-4. To run API tests: `npm run test_api`
-5. To run visual tests: `npm run test_visual`
+3. Install PlayWright using `npm install -D @playwright/test`
+4. To run UI tests: `npm run test`
+5. To run API tests: `npm run test_api`
+6. To run visual tests: `npm run test_visual`
 

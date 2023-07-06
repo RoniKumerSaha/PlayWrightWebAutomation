@@ -1,6 +1,6 @@
 import test, { expect } from "@playwright/test";
-import * as credentials from '../data/credentials.json'
-import * as userData from '../data/user_data.json'
+import * as credentials from '../../data/credentials.json'
+import * as userData from '../../data/user_data.json'
 
 test.describe('API tests for Restfull booker', ()=>{
     let bookingId: number

@@ -3,7 +3,7 @@ import { PlaywrightTestConfig } from "@playwright/test";
 const config: PlaywrightTestConfig = {
     timeout: 60000,
     retries: 0,
-    testDir: 'ui_tests',
+    testDir: 'tests/ui_tests',
     use: {
         headless: false,
         viewport: {
