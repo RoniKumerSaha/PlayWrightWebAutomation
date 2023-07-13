@@ -12,6 +12,6 @@ COPY . /app/
 # Install dependencies
 RUN npm install
 
-CMD npm run test_all
+ENTRYPOINT [ "npm", "run" ]
 
-#ENTRYPOINT [ "npm", "run", "test_api" ]
+CMD ["test_all"]
