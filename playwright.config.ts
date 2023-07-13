@@ -5,7 +5,7 @@ const config: PlaywrightTestConfig = {
     retries: 0,
     testDir: 'tests/ui_tests',
     use: {
-        headless: false,
+        headless: true,
         viewport: {
             width: 1280,
             height: 720

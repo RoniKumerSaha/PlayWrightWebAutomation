@@ -7,14 +7,8 @@ FROM mcr.microsoft.com/playwright:v1.35.1-focal
 # Set the working directory
 WORKDIR /app
 
-ENV PATH /app/node_modules/.bin:$PATH
-
-# Copy package.json and package-lock.json to the working directory
-COPY . .
+COPY . /app/
 
 # Install dependencies
 RUN npm install
-#RUN npx playwright install
-
-# Copy the test files and configuration files to the working directory
 
