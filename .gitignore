@@ -2,3 +2,4 @@ node_modules/
 visual_testing/VisualTest.spec.ts-snapshots/
 test-results/
 playwright-report/
+.idea
