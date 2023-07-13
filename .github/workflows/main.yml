@@ -30,3 +30,7 @@ jobs:
     - name: Running UI Tests
       run: |
         npm run test
+
+    - name: Running UI Visual Tests
+      run: |
+        npm run test_visual

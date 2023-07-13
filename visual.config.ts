@@ -3,9 +3,9 @@ import { PlaywrightTestConfig } from "@playwright/test";
 const config: PlaywrightTestConfig = {
     timeout: 60000,
     retries: 0,
-    testDir: 'tests/visual_testing',
+    testDir: 'tests/visual_tests',
     use: {
-        headless: false,
+        headless: true,
         viewport: {
             width: 1280,
             height: 720

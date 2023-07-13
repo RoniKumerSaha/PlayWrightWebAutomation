@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test --headed --config=playwright.config.ts --reporter=html",
-    "test_visual": "playwright test --headed --config=visual.config.ts --reporter=html",
+    "test_visual": "playwright test --config=visual.config.ts --reporter=html",
     "test_firefox": "playwright test --browser=firefox --headed",
-    "test_all": "playwright test --browser=all --headed",
+    "test_all": "playwright test --browser=all",
     "test_api": "playwright test --config=api.config.ts"
   },
   "author": "Roni",
