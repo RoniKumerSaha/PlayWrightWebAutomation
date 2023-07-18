@@ -1,0 +1,12 @@
+
+> playwrightwebautomation@1.0.0 test_visual
+> playwright test --config=visual.config.ts
+
+
+Running 3 tests using 1 worker
+
+  ✓  1 VisualTest.spec.ts:15:9 › Visual smoke testing › User should see right UI for Home page (3.7s)
+  ✓  2 VisualTest.spec.ts:19:9 › Visual smoke testing › User should see product list in Home page (3.7s)
+  ✓  3 VisualTest.spec.ts:23:9 › Visual smoke testing › User can view products in product details page (6.9s)
+
+  3 passed (14.6s)

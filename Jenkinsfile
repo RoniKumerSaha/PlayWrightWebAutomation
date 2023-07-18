@@ -14,8 +14,8 @@ pipeline {
 
         stage('Test') {
             steps {
-                // Run the Docker container and execute tests
-                sh 'docker run --rm myapp'
+                // Run the Docker container and execute tests and save logs
+                sh 'docker run myapp > logs.txt'
             }
         }
 

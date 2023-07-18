@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test --headed --config=playwright.config.ts --reporter=html",
-    "test_visual": "playwright test --config=visual.config.ts --reporter=html",
+    "test_visual": "playwright test --config=visual.config.ts",
     "test_firefox": "playwright test --browser=firefox",
     "test_all": "playwright test --browser=all",
     "test_api": "playwright test --config=api.config.ts"
